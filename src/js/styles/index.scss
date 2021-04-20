@@ -46,6 +46,8 @@ body{
 
 .card-body{
     color: grey;
+    min-height: 290px;
+    max-height: 290px;
 }
 
 .MovieCard  {
@@ -59,17 +61,17 @@ body{
 
 
  .moviecard-container { 
-        height: 500px;  
+        // height: 500px;
         margin: 0px 8px;
         img{
-            height: 400px;
+            height: 450px;
         
         }
 
     }
 
 
-    .MovieDetails-container {
+.MovieDetails-container {
     height: 454px;
     color: yellow;
 }
